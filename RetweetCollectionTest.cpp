@@ -84,5 +84,9 @@ TEST(TestDouble, SumOfFloats)
 {
     double x{4.0};
     double y{0.56};
+
+    ASSERT_THAT(x + y, DoubleEq(4.56));
 }
+
+
 
